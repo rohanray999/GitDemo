@@ -21,7 +21,7 @@ def browserSetup(request):
     elif browser == "safari":
         driver = webdriver.Safari()
     driver.maximize_window()
-    driver.implicitly_wait(4)
+    driver.implicitly_wait(10)
     driver.get("https://rahulshettyacademy.com/angularpractice/")
     request.cls.driver = driver
     yield
@@ -50,3 +50,4 @@ def pytest_runtest_makereport(item):
 def _capture_screenshot(name):
 
     driver.get_screenshot_as_file(name)
+    print("hello222")
