@@ -53,3 +53,6 @@ def _capture_screenshot(name):
     print("hello222")
     print("First Hello")
     print("Second Hello")
+    print("New ")
+    print("New test")
+    print("Tasty")
