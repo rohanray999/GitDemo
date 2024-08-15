@@ -53,6 +53,12 @@ def _capture_screenshot(name):
     print("hello222")
     print("First Hello")
     print("Second Hello")
+<<<<<<< HEAD
     print("New ")
     print("New test")
     print("Tasty")
+=======
+    print("Hello People")
+    print("ready to deploy")
+    print("ready Hello")
+>>>>>>> development
