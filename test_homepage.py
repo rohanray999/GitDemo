@@ -22,6 +22,7 @@ class TestHomepage(BaseClass):
         message = homePage.getSuccess().text
         assert "Success" in message
         self.driver.refresh()
+        print("Demo Homepage")
 
     # @pytest.fixture(params=[("Rahul", "Shetty", "Male"), ("Sagar", "Rayamajhi", "Female")])
     # Parametrerzing the tests with multiple data sets using dictionary

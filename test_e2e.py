@@ -24,3 +24,5 @@ class TestOne(BaseClass):
         confirmpage.purchaseButton().click()
         text_success = confirmpage.alertMessage().text
         assert "Success" in text_success
+        print(text_success)
+        print("Demmo Print")
