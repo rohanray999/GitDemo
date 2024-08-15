@@ -51,3 +51,5 @@ def _capture_screenshot(name):
 
     driver.get_screenshot_as_file(name)
     print("hello222")
+    print("First Hello")
+    print("Second Hello")
